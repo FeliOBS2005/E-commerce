@@ -1,0 +1,18 @@
+Création d’un projet de site web pour une mini boutique e-commerce 
+1. Nom du dossier principal : 
+Le dossier racine du projet sera nommé Boutique. 
+2. Organisation interne : 
+À l’intérieur du dossier Boutique, créez les sous-dossiers suivants : 
+o images/ : pour les visuels des produits et éléments graphiques. 
+o js/ : pour les fichiers JavaScript (fonctions, interactions, etc.). 
+o css/ : pour les feuilles de style CSS (mise en page, design). 
+3. Fichiers HTML à intégrer dans le dossier Boutique : 
+Ajoutez 7 fichiers HTML, correspondant chacun à une section du site e
+commerce, par exemple : 
+o index.html — Page d’accueil 
+o produits.html — Catalogue des produits 
+o panier.html — Page du panier 
+o commande.html — Processus de commande / paiement 
+o apropos.html — À propos de la boutique 
+o contact.html — Formulaire ou informations de contact 
+o compte.html — Espace client (connexion, inscription)

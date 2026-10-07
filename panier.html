@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botuique en ligne</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/lib/aos-master/dist/aos.css">
+    <script src="assets/lib/tailwindcss.min.js"></script>
+
+</head>
+
+<body class=" overflow-x-hidden">
+    <nav
+        class="z-10 transition-all bg-black/0 text-white fixed top-0 left-0 w-full p-3 flex justify-between items-center shadow px-10">
+        <div class=" flex gap-2 items-center ">
+
+            <!-- <i class="fa fa-shopping-basket text-4xl" aria-hidden="true"></i> -->
+            <h1 class=" text-3xl font-black"> <sup class=" text-[#03CCFF]">.</sup> urban<span
+                    class=" text-[#03CCFF]">Style.</span></h1>
+        </div>
+        <ul class=" flex gap-5 items-center">
+            <li><a class=" hover:text-[#03CCFF]  hover;text-bold transition-all" href="index.html">Accueil</a>
+            </li>
+            <li><a class=" hover:text-[#03CCFF] hover;text-bold transition-all" href="produits.html">Produits</a></li>
+            <li><a class=" hover:text-[#03CCFF] text-[#03CCFF] hover;text-bold transition-all"
+                    href="panier.html">Panier</a></li>
+            <li><a class=" hover:text-[#03CCFF] hover;text-bold transition-all" href="commande.html">Commande</a></li>
+            <li><a class=" hover:text-[#03CCFF] hover;text-bold transition-all" href="apropos.html">A propos</a></li>
+            <li><a class=" hover:text-[#03CCFF] hover;text-bold transition-all" href="contact.html">Contact</a></li>
+            <li><a class=" hover:text-[#03CCFF] hover;text-bold transition-all" href="compte.html"><button
+                        class=" text-white bg-[#0033FF]  p-2 rounded-full px-10">Connexion</button></a></li>
+        </ul>
+    </nav>
+
+    <section id="hero-panier" class="h-screen">
+        <div
+            class=" text-white size-full bg-gradient-to-br from-black/60 via-black/60 to-[#03CCFF] flex justify-center items-center">
+            <div class=" w-full  flex justify-center items-center">
+                <div class=" px-10 mt-20  w-full text-center flex-col justif-center items-center">
+                    <h1 class=" fadeUp text-6xl font-bold ">Découvrez votre carte d'achat
+                    </h1>
+                    <p class=" fadeUp pt-3 md:px-30">
+                        Découvrez l’univers de la mode urbaine avec <strong>UrbanStyle</strong>, votre boutique en ligne
+                        dédiée aux vêtements tendances et stylés.
+                        Que vous soyez à la recherche d’un look casual, streetwear ou chic, nous avons ce qu’il vous
+                        faut.
+                        Nos collections pour hommes et femmes sont sélectionnées avec soin pour vous offrir style,
+                        confort
+                        et qualité au meilleur prix.
+                    </p>
+
+                    <div class=" fadeUp py-5 flex gap-5 mt-5 justify-center">
+                        <a class=" hover:text-[#03CCFF] hover;text-bold transition-all" href="compte.html"><button
+                                class=" text-white bg-transparent border border-[#03CCFF] p-4 hover:bg-[#03CCFF] transition-all rounded-full px-10">Explorer
+                                votre panier</button></a>
+
+                    </div>
+                </div>
+
+            </div>
+            <!-- <div style="transform: translateX(200px); "
+                class="right-box-hero w-full opacity-0 flex flex-col justify-center items-center bg-emerald-300/60 backdrop-blur z-1 h-screen">
+                <img style="transform: translateY(100px);" src="assets/img/produit/produit-9.png"
+                    class=" opacity-0 size-96 object-cover" alt="">
+                <div style="transform: translateY(100px);" class=" opacity-0 ">
+                    <h1 class=" text-4xl text-center font-bolder">80% de reduction sur nos offres</h1>
+                </div>
+            </div> -->
+        </div>
+        </div>
+    </section>
+
+
+    <section class=" text-white flex p-10">
+        <div>
+            <div class=" flex items-center gap-2 text-zinc-400">
+                <p class=" text-xl">produit</p>
+                <div class=" w-80 h-0.5 bg-gradient-to-br from-[#0033FF] via-[#03CCFF] to-[#00033D]"></div>
+            </div>
+            <h1 class=" text-5xl text-start font-bold  text-black">il ya une semaine <span
+                    class=" text-[#03CCFF]">.</span> </h1>
+
+
+            <div class=" w-full flex mt-10 relative">
+
+                <div class=" w-full">
+                    <img src="assets/img/blog-4.jpg" class="w-full h-96 object-cover" alt="">
+                </div>
+
+                <div style="border-top-left-radius: 10rem;"
+                    class="w-1/3 bottom-0 right-0 absolute  p-10 bg-gradient-to-br from-black/60 via-black/60 to-[#03CCFF] flex flex-col justify-center items-center">
+                    <!-- <h1 class=" text-4xl  text-start">15.000 fcfa</h1> -->
+                    <h1 class=" text-3xl  mt-3">Mes Vétements</h1>
+                    <div class=" text-3xl mt-3">
+                        <i class="fa fa-star text-orange-300" aria-hidden="true"></i>
+                        <i class="fa fa-star text-orange-300" aria-hidden="true"></i>
+                        <i class="fa fa-star text-orange-300" aria-hidden="true"></i>
+                        <i class="fa fa-star text-orange-300" aria-hidden="true"></i>
+                        <i class="fa fa-star-half text-orange-300" aria-hidden="true"></i>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class=" mt-10  grid grid-cols-4 gap-5">
+                <div id="1" class="shadow rounded-lg p-5 bg-blue-50  relative text-black">
+                    <div class=" absolute top-O left-2 font-bolder">
+                        <div class="font-semibold text-[#03CCFF] text-lg">
+                            9000 <sup>FCFA</sup>
+                        </div>
+                    </div>
+                    <!-- <div id="1" class=" absolute top-0 left-0 text-white size-full bg-black/40 rounded-lg flex items-center justify-center">
+                       <button class=" p-2 px-5 bg-emerald-500 rounded-full"> <i class="fa fa-shopping-bag" aria-hidden="true"></i> Ajouter au panier</button>
+                    </div> -->
+                    <img src="assets/img/p2.png" class=" size-72 " alt="">
+                    <div>
+                        <div class="  space-y-2 mt-5 text-white">
+                            <div class="flex justify-around items-center">
+                                <i class="fa fa-minus text-black bg-zinc-200 rounded p-3" aria-hidden="true"></i>
+                                <h1 class=" text-black text-xl">10</h1>
+                                <i class="fa fa-plus text-black bg-zinc-200 rounded p-3" aria-hidden="true"></i>
+                            </div>
+                            <button class=" p-2 px-5 w-full rounded-full bg-[#03CCFF]">Acheter</button>
+                            <button
+                                class=" p-2 px-5 w-full rounded-full text-red-500 bg-transparent border border-red-500">Retirer
+                                de la carte</button>
+                        </div>
+                    </div>
+                </div>
+                <div id="1" class="shadow rounded-lg p-5 bg-blue-50  relative text-black">
+                    <div class=" absolute top-O left-2 font-bolder">
+                        <div class=" font-semibold text-[#03CCFF] text-lg">
+                            9000 <sup>FCFA</sup>
+                        </div>
+                    </div>
+                    <img src="assets/img/p1.png" class=" size-72 " alt="">
+                    <div>
+                        <div class="  space-y-2 mt-5 text-white">
+                            <div class="flex justify-around items-center">
+                                <i class="fa fa-minus text-black bg-zinc-200 rounded p-3" aria-hidden="true"></i>
+                                <h1 class=" text-black text-xl">10</h1>
+                                <i class="fa fa-plus text-black bg-zinc-200 rounded p-3" aria-hidden="true"></i>
+                            </div>
+                            <button class=" p-2 px-5 w-full rounded-full bg-[#03CCFF]">Acheter</button>
+                            <button
+                                class=" p-2 px-5 w-full rounded-full text-red-500 bg-transparent border border-red-500">Retirer
+                                de la carte</button>
+                        </div>
+                    </div>
+                </div>
+                <div id="1" class="shadow rounded-lg p-5 bg-blue-50  relative text-black">
+                    <div class=" absolute top-O left-2 font-bolder">
+                        <div class=" font-semibold text-[#03CCFF] text-lg">
+                            9000 <sup>FCFA</sup>
+                        </div>
+
+                    </div>
+                    <img src="assets/img/p10.png" class=" size-72 " alt="">
+                    <div>
+                        <div class="  space-y-2 mt-5 text-white">
+                            <div class="flex justify-around items-center">
+                                <i class="fa fa-minus text-black bg-zinc-200 rounded p-3" aria-hidden="true"></i>
+                                <h1 class=" text-black text-xl">10</h1>
+                                <i class="fa fa-plus text-black bg-zinc-200 rounded p-3" aria-hidden="true"></i>
+                            </div>
+                            <button class=" p-2 px-5 w-full rounded-full bg-[#03CCFF]">Acheter</button>
+                            <button
+                                class=" p-2 px-5 w-full rounded-full text-red-500 bg-transparent border border-red-500">Retirer
+                                de la carte</button>
+                        </div>
+                    </div>
+                </div>
+                <div id="1" class="shadow rounded-lg p-5 bg-blue-50  relative text-black">
+                    <div class=" absolute top-O left-2 font-bolder">
+                        <div class=" font-semibold text-[#03CCFF] text-lg">
+                            9000 <sup>FCFA</sup>
+                        </div>
+
+                    </div>
+                    <img src="assets/img/p4.png" class=" size-72 " alt="">
+                    <div>
+                        <div class="  space-y-2 mt-5 text-white">
+                            <div class="flex justify-around items-center">
+                                <i class="fa fa-minus text-black bg-zinc-200 rounded p-3" aria-hidden="true"></i>
+                                <h1 class=" text-black text-xl">10</h1>
+                                <i class="fa fa-plus text-black bg-zinc-200 rounded p-3" aria-hidden="true"></i>
+                            </div>
+                            <button class=" p-2 px-5 w-full rounded-full bg-[#03CCFF]">Acheter</button>
+                            <button
+                                class=" p-2 px-5 w-full rounded-full text-red-500 bg-transparent border border-red-500">Retirer
+                                de la carte</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class=" mt-10  grid grid-cols-4 gap-5">
+                <div id="1" class="shadow rounded-lg p-5 bg-blue-50  relative text-black">
+                    <div class=" absolute top-O left-2 font-bolder">
+                        <div class="font-semibold text-[#03CCFF] text-lg">
+                            9000 <sup>FCFA</sup>
+                        </div>
+                        <div class=" text-red-500 text-sm" style="text-decoration: line-through;">
+                            15000 <sup>FCFA</sup>
+                        </div>
+                    </div>
+                    <!-- <div id="1" class=" absolute top-0 left-0 text-white size-full bg-black/40 rounded-lg flex items-center justify-center">
+                       <button class=" p-2 px-5 bg-emerald-500 rounded-full"> <i class="fa fa-shopping-bag" aria-hidden="true"></i> Ajouter au panier</button>
+                    </div> -->
+                    <img src="assets/img/produit/produit-26.png" class=" size-72 " alt="">
+                    <div>
+                        <div class="  space-y-2 mt-5 text-white">
+                            <button class=" p-2 px-5 w-full rounded-full bg-[#03CCFF]">Acheter</button>
+                            <button
+                                class=" p-2 px-5 w-full rounded-full text-red-500 bg-transparent border border-red-500">Retirer
+                                de la carte</button>
+                        </div>
+                    </div>
+                </div>
+                <div id="1" class="shadow rounded-lg p-5 bg-blue-50  relative text-black">
+                    <div class=" absolute top-O left-2 font-bolder">
+                        <div class=" font-semibold text-[#03CCFF] text-lg">
+                            9000 <sup>FCFA</sup>
+                        </div>
+                        <div class=" text-red-500 text-sm" style="text-decoration: line-through;">
+                            15000 <sup>FCFA</sup>
+                        </div>
+                    </div>
+                    <!-- <div id="1" class=" absolute top-0 left-0 text-white size-full bg-black/40 rounded-lg flex items-center justify-center">
+                       <button class=" p-2 px-5 bg-emerald-500 rounded-full"> <i class="fa fa-shopping-bag" aria-hidden="true"></i> Ajouter au panier</button>
+                    </div> -->
+                    <img src="assets/img/produit/produit-25.png" class=" size-72 " alt="">
+                    <div>
+                        <div class="  space-y-2 mt-5 text-white">
+                            <button class=" p-2 px-5 w-full rounded-full bg-[#03CCFF]">Acheter</button>
+                            <button
+                                class=" p-2 px-5 w-full rounded-full text-red-500 bg-transparent border border-red-500">Retirer
+                                de la carte</button>
+                        </div>
+                    </div>
+                </div>
+                 <div id="1" class="shadow rounded-lg p-5 bg-blue-50  relative text-black">
+                    <div class=" absolute top-O left-2 font-bolder">
+                        <div class=" font-semibold text-[#03CCFF] text-lg">
+                            9000 <sup>FCFA</sup>
+                        </div>
+                        <div class=" text-red-500 text-sm" style="text-decoration: line-through;">
+                            15000 <sup>FCFA</sup>
+                        </div>
+                    </div>
+                    <!-- <div id="1" class=" absolute top-0 left-0 text-white size-full bg-black/40 rounded-lg flex items-center justify-center">
+                       <button class=" p-2 px-5 bg-emerald-500 rounded-full"> <i class="fa fa-shopping-bag" aria-hidden="true"></i> Ajouter au panier</button>
+                    </div> -->
+                    <img src="assets/img/produit/produit-6.png" class=" size-72 " alt="">
+                    <div>
+                        <div class="  space-y-2 mt-5 text-white">
+                            <button class=" p-2 px-5 w-full rounded-full bg-[#03CCFF]">Acheter</button>
+                            <button
+                                class=" p-2 px-5 w-full rounded-full text-red-500 bg-transparent border border-red-500">Retirer
+                                de la carte</button>
+                        </div>
+                    </div>
+                </div>
+                <div id="1" class="shadow rounded-lg p-5 bg-blue-50  relative text-black">
+                    <div class=" absolute top-O left-2 font-bolder">
+                        <div class=" font-semibold text-[#03CCFF] text-lg">
+                            9000 <sup>FCFA</sup>
+                        </div>
+                        <div class=" text-red-500 text-sm" style="text-decoration: line-through;">
+                            15000 <sup>FCFA</sup>
+                        </div>
+                    </div>
+                    <!-- <div id="1" class=" absolute top-0 left-0 text-white size-full bg-black/40 rounded-lg flex items-center justify-center">
+                       <button class=" p-2 px-5 bg-emerald-500 rounded-full"> <i class="fa fa-shopping-bag" aria-hidden="true"></i> Ajouter au panier</button>
+                    </div> -->
+                    <img src="assets/img/produit/produit-36.png" class=" size-72 " alt="">
+                    <div>
+                        <div class="  space-y-2 mt-5 text-white">
+                            <button class=" p-2 px-5 w-full rounded-full bg-[#03CCFF]">Acheter</button>
+                            <button
+                                class=" p-2 px-5 w-full rounded-full text-red-500 bg-transparent border border-red-500">Retirer
+                                de la carte</button>
+                        </div>
+                    </div>
+                </div>
+                 <div id="1" class="shadow rounded-lg p-5 bg-blue-50  relative text-black">
+                    <div class=" absolute top-O left-2 font-bolder">
+                        <div class=" font-semibold text-[#03CCFF] text-lg">
+                            9000 <sup>FCFA</sup>
+                        </div>
+                        <div class=" text-red-500 text-sm" style="text-decoration: line-through;">
+                            15000 <sup>FCFA</sup>
+                        </div>
+                    </div>
+                    <!-- <div id="1" class=" absolute top-0 left-0 text-white size-full bg-black/40 rounded-lg flex items-center justify-center">
+                       <button class=" p-2 px-5 bg-emerald-500 rounded-full"> <i class="fa fa-shopping-bag" aria-hidden="true"></i> Ajouter au panier</button>
+                    </div> -->
+                    <img src="assets/img/produit/produit-1.png" class=" size-72 " alt="">
+                    <div>
+                        <div class="  space-y-2 mt-5 text-white">
+                            <button class=" p-2 px-5 w-full rounded-full bg-[#03CCFF]">Acheter</button>
+                            <button
+                                class=" p-2 px-5 w-full rounded-full text-red-500 bg-transparent border border-red-500">Retirer
+                                de la carte</button>
+                        </div>
+                    </div>
+                </div>
+                 <div id="1" class="shadow rounded-lg p-5 bg-blue-50  relative text-black">
+                    <div class=" absolute top-O left-2 font-bolder">
+                        <div class=" font-semibold text-[#03CCFF] text-lg">
+                            9000 <sup>FCFA</sup>
+                        </div>
+                        <div class=" text-red-500 text-sm" style="text-decoration: line-through;">
+                            15000 <sup>FCFA</sup>
+                        </div>
+                    </div>
+                    <!-- <div id="1" class=" absolute top-0 left-0 text-white size-full bg-black/40 rounded-lg flex items-center justify-center">
+                       <button class=" p-2 px-5 bg-emerald-500 rounded-full"> <i class="fa fa-shopping-bag" aria-hidden="true"></i> Ajouter au panier</button>
+                    </div> -->
+                    <img src="assets/img/produit/produit-7.png" class=" size-72 " alt="">
+                    <div>
+                        <div class="  space-y-2 mt-5 text-white">
+                            <button class=" p-2 px-5 w-full rounded-full bg-[#03CCFF]">Acheter</button>
+                            <button
+                                class=" p-2 px-5 w-full rounded-full text-red-500 bg-transparent border border-red-500">Retirer
+                                de la carte</button>
+                        </div>
+                    </div>
+                </div>
+                 <div id="1" class="shadow rounded-lg p-5 bg-blue-50  relative text-black">
+                    <div class=" absolute top-O left-2 font-bolder">
+                        <div class=" font-semibold text-[#03CCFF] text-lg">
+                            9000 <sup>FCFA</sup>
+                        </div>
+                        <div class=" text-red-500 text-sm" style="text-decoration: line-through;">
+                            15000 <sup>FCFA</sup>
+                        </div>
+                    </div>
+                    <!-- <div id="1" class=" absolute top-0 left-0 text-white size-full bg-black/40 rounded-lg flex items-center justify-center">
+                       <button class=" p-2 px-5 bg-emerald-500 rounded-full"> <i class="fa fa-shopping-bag" aria-hidden="true"></i> Ajouter au panier</button>
+                    </div> -->
+                    <img src="assets/img/produit/produit-17.png" class=" size-72 " alt="">
+                    <div>
+                        <div class="  space-y-2 mt-5 text-white">
+                            <button class=" p-2 px-5 w-full rounded-full bg-[#03CCFF]">Acheter</button>
+                            <button
+                                class=" p-2 px-5 w-full rounded-full text-red-500 bg-transparent border border-red-500">Retirer
+                                de la carte</button>
+                        </div>
+                    </div>
+                </div>
+                 <div id="1" class="shadow rounded-lg p-5 bg-blue-50  relative text-black">
+                    <div class=" absolute top-O left-2 font-bolder">
+                        <div class=" font-semibold text-[#03CCFF] text-lg">
+                            9000 <sup>FCFA</sup>
+                        </div>
+                        <div class=" text-red-500 text-sm" style="text-decoration: line-through;">
+                            15000 <sup>FCFA</sup>
+                        </div>
+                    </div>
+                    <!-- <div id="1" class=" absolute top-0 left-0 text-white size-full bg-black/40 rounded-lg flex items-center justify-center">
+                       <button class=" p-2 px-5 bg-emerald-500 rounded-full"> <i class="fa fa-shopping-bag" aria-hidden="true"></i> Ajouter au panier</button>
+                    </div> -->
+                    <img src="assets/img/produit/produit-19.png" class=" size-72 " alt="">
+                    <div>
+                        <div class="  space-y-2 mt-5 text-white">
+                            <button class=" p-2 px-5 w-full rounded-full bg-[#03CCFF]">Acheter</button>
+                            <button
+                                class=" p-2 px-5 w-full rounded-full text-red-500 bg-transparent border border-red-500">Retirer
+                                de la carte</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <!-- la mise en place du petit bouton pour effectuer rapidement des choses -->
+    <a href="galerie.html"
+        class=" fixed rounded-full size-16 cursor-pointer hover:bg-black/60 transition-all bottom-5 bg-gradient-to-br from-[#0033FF] via-[#03CCFF] to-[#00033D] shadow-[#0033FF] animate-bounce shadow-2xl flex text-white justify-center items-center right-20">
+        <i class="fa fa-plus" aria-hidden="true"></i>
+    </a>
+
+
+    <footer>
+        <div class="bg-black p-20 grid grid-cols-4 gap-10 m-0 text-white">
+            <div>
+                <h1 class=" text-3xl font-black"> <sup class=" text-[#03CCFF]">.</sup> urban<span
+                        class=" text-[#03CCFF]">Style.</span></h1>
+                <ul class="p-2 text-sm space-y-3 mt-5">
+                    <li> <strong>Adresse: </strong> 11 Rue Mfilou,Brazzaville</li>
+                    <li> <strong>Téléphone: </strong>+242 06 471 63 83</li>
+                    <li> <strong>Téléphone 2: </strong>+242 05 076 70 06</li>
+                    <li> <strong>Email: </strong>chdrckmssmb@gmail.com</li>
+                </ul>
+                <div class=" p-2 mt-5 flex gap-3">
+                    <div class=" size-10 flex items-center rounded-full justify-center border  ">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </div>
+                    <div class=" size-10 flex items-center rounded-full justify-center border  ">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </div>
+                    <div class=" size-10 flex items-center rounded-full justify-center border  ">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </div>
+                    <div class=" size-10 flex items-center rounded-full justify-center border  ">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h1 class=" text-xl font-black p-2">Liens utilisés</h1>
+                <ul class="p-2 text-sm space-y-3 mt-5">
+                    <li> Accueil</li>
+                    <li> Produits</li>
+                    <li> Panier</li>
+                    <li> Commande</li>
+                    <!-- <li>A propos</li>
+                    <li>Contact</li>
+                    <li>Connexion/Inscription</li> -->
+                </ul>
+
+            </div>
+            <div>
+                <h1 class=" text-xl font-black p-2">Liens utilisés</h1>
+                <ul class="p-2 text-sm space-y-3 mt-5">
+                    <li> Accueil</li>
+                    <li> Produits</li>
+                    <li> Panier</li>
+                    <li> Commande</li>
+                    <!-- <li>A propos</li>
+                    <li>Contact</li>
+                    <li>Connexion/Inscription</li> -->
+                </ul>
+
+            </div>
+
+            <div class="p-2">
+                <h1 class=" text-xl font-black ">
+                    Notre newsletter
+                </h1>
+                <p class=" mt-5 text-sm">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi praesentium dignissimos
+                </p>
+                <form>
+                    <input type="email" name="" placeholder="votre email"
+                        class=" p-5 w-full bg-transparent border rounded my-3" id="">
+                    <button class=" p-2 px-5 rounded-full bg-[#03CCFF] float-end text-xs">valider</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="assets/lib/gsap/dist/gsap.min.js"></script>
+    <script src="assets/lib/gsap/dist/ScrollTrigger.min.js"></script>
+    <script src="assets/lib/jquery-3.4.1.min.js"></script>
+    <script src="assets/lib/jquery.ripples-master/jquery.ripples-master/dist/jquery.ripples-min.js"></script>
+    <script src="assets/lib/aos-master/dist/aos.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script>
+
+        window.onload = () => {
+
+
+            AOS.init()
+
+
+
+
+            $(document).ready(function () {
+                $('#hero-panier').ripples({
+                    resolution: 512,
+                    dropRadius: 20, //px
+                    perturbance: 0.04,
+
+                });
+
+
+            });
+
+
+            document.addEventListener("scroll", (e) => {
+
+                if (scrollY != 0) {
+                    document.querySelector("nav").classList.replace("bg-black/0", "bg-black/60")
+                }
+                else {
+                    document.querySelector("nav").classList.replace("bg-black/60", "bg-black/0")
+                }
+                // alert("l'on entend le scroll")
+            })
+
+        }
+    </script>
+</body>
+
+</html>
